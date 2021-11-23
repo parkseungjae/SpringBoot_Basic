@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	index 페이지 입니다.
+	<br> ㅎㅇ
+	<hr>
+	session =>
+	<span th:text="${session.user}">결과 값</span>
+	<br> model =>
+	<h3 th:text="${user}" style="color: blue"></h3>
+	<hr>
+	<p th:text="#{url.naver}"></p>
+</body>
+</html>
